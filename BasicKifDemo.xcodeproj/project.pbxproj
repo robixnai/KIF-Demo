@@ -17,6 +17,7 @@
 		CFC4E7C81D864C8700D54054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC4E7C61D864C8700D54054 /* LaunchScreen.storyboard */; };
 		CFFE70B71D864CED00A411D9 /* BasicKifDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE70B61D864CED00A411D9 /* BasicKifDemoTests.m */; };
 		CFFE70C01D864D4400A411D9 /* KifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE70BF1D864D4400A411D9 /* KifTests.m */; };
+		CFFE70C31D864FD000A411D9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE70C21D864FD000A411D9 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CFFE70B81D864CED00A411D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFFE70BE1D864D4400A411D9 /* KifTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KifTests.h; sourceTree = "<group>"; };
 		CFFE70BF1D864D4400A411D9 /* KifTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KifTests.m; sourceTree = "<group>"; };
+		CFFE70C11D864FD000A411D9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CFFE70C21D864FD000A411D9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				CFC4E7C61D864C8700D54054 /* LaunchScreen.storyboard */,
 				CFC4E7C91D864C8700D54054 /* Info.plist */,
 				CFC4E7B81D864C8700D54054 /* Supporting Files */,
+				CFFE70C11D864FD000A411D9 /* LoginViewController.h */,
+				CFFE70C21D864FD000A411D9 /* LoginViewController.m */,
 			);
 			path = BasicKifDemo;
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFE70C31D864FD000A411D9 /* LoginViewController.m in Sources */,
 				CFC4E7C01D864C8700D54054 /* ViewController.m in Sources */,
 				CFC4E7BD1D864C8700D54054 /* AppDelegate.m in Sources */,
 				CFC4E7BA1D864C8700D54054 /* main.m in Sources */,
